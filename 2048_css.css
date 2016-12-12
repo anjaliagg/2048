@@ -1,0 +1,160 @@
+#fullpage
+{
+    width:64%;
+    padding:2%;
+    margin:0 auto;
+    height:500px;
+    display:flex;
+    flex-direction:row;
+    max-width:400px;
+    min-width:225px;
+    background:#BBADA0;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 71vw;
+    max-height: 400px;
+    min-height: 225px;
+}
+
+
+.tiles
+{
+    width:23%;
+    background:#CCC0B3;
+    margin: 2px 2px;
+    border-radius:15px;
+    text-align:center;
+    font-size: 110%;
+    font-family:myriad pro;
+    height:23%;
+    color:#CCC0B3;
+}
+
+.tile0
+{
+    background:#CCC0B3;
+}
+
+.tile2
+{
+    background:#EEE4DA !important;
+    color:black !important;
+}
+
+.tile4
+{
+    background:#EDE0C8 !important;
+    color:black !important;
+}
+.tile8
+{
+    background:#F2B179 !important;
+    color:black !important;
+}
+
+.tile16
+{
+    background:#F39760 !important;
+    color:black !important;
+}
+
+.tile32
+{
+    background:#F57C5F !important;
+    color:black !important;
+}
+.tile64
+{
+    background:#F65D3B !important;
+    color:black !important;
+}
+.tile128
+{
+    background:#EDCE71 !important;
+    color:black !important;
+}
+
+.tile256
+{
+    background:#EDCC63 !important;
+    color:black !important;
+}
+.tile512
+{
+    background:#EDCC63 !important;
+    color:black !important;
+}
+.tile1024
+{
+    background:#EDCC63 !important;
+    color:black !important;
+}
+
+.tile2048
+{
+    background:#EDCC63 !important;
+    color:black !important;
+}
+
+.tile4096, .tile8192,.tile16384
+{
+    background:aqua !important;
+    color:black !important;
+}
+
+#outerdiv
+{
+    height: 100%;
+    width: 100%;
+    min-height: 255px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.75);
+    opacity: 1;
+    text-align: center;
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.85);
+    vertical-align: middle;
+    margin-top: -100%;
+    
+    
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+}
+
+span
+{
+    vertical-align: middle;
+    margin-top: 38%;
+    padding-top: 100%;
+    
+}
+
+#scorebox
+{
+    height: 12vh;
+    width: 19vh;
+    background: none repeat scroll 0% 0% #84817D;
+    margin: 10vh auto 0px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    font-family: myriad pro;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 14px;
+    
+    font-weight: bold;
+    
+}
+
+
+   
+
